@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity1"
+    android:background="@drawable/background" >
+
+    <EditText
+         android:paddingLeft="30dp"
+        android:id="@+id/eMail_editText"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:background="@android:color/white" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:paddingLeft="30dp"
+        android:id="@+id/asswordRegister_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/eMail_editText"
+        android:layout_alignRight="@+id/eMail_editText"
+        android:layout_below="@+id/eMail_editText"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/conformPassword_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/asswordRegister_editText"
+        android:layout_alignRight="@+id/asswordRegister_editText"
+        android:layout_below="@+id/asswordRegister_editText"
+        android:background="@android:color/white"
+        android:ems="10"
+         android:paddingLeft="30dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <EditText
+         android:paddingLeft="30dp"
+        android:id="@+id/mobileNumber_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/conformPassword_editText"
+        android:layout_alignRight="@+id/conformPassword_editText"
+        android:layout_below="@+id/conformPassword_editText"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Mobile Number" />
+
+    <Button
+        android:id="@+id/register2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mobileNumber_editText"
+        android:layout_alignRight="@+id/mobileNumber_editText"
+        android:layout_below="@+id/mobileNumber_editText"
+        android:layout_marginTop="60dp"
+        android:text="Register"
+        android:background="#990033" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+          android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/merulogin" />
+    
+</RelativeLayout>

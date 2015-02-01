@@ -1,0 +1,454 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scrollbackgroundimg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="525dp"
+            android:background="@drawable/loggedinbackground" >
+
+            <ImageView
+                android:id="@+id/discountTag_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/discountImg_imageView"
+                android:layout_marginRight="118dp"
+                android:src="@drawable/discounttag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/currentLocationiImg_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/discountTag_imageView"
+                android:layout_marginTop="43dp"
+                android:layout_toLeftOf="@+id/discountTag_imageView"
+                android:src="@drawable/currentlocaitonicon"
+                 />
+
+            <ImageView
+                android:id="@+id/discountImg_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="165dp"
+                android:src="@drawable/discountimg"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+         <LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/viewbackground2" >
+
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Products"
+                 android:textColor="@android:color/white"
+                 android:layout_weight="1" />
+
+             <Button
+                 android:id="@+id/button1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Perfumes    "
+                 android:textColor="@android:color/white"
+                 android:layout_weight="1"
+                 android:drawableRight="@drawable/downarrowcolor4"
+                 android:background="@android:color/transparent" />
+
+             <Button
+                 android:id="@+id/button2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="  All          "
+                 android:textColor="@android:color/white"
+                 android:drawableRight="@drawable/downarrowcolor4"
+                 android:layout_weight="1"
+                 android:background="@android:color/transparent" />
+    
+             </LinearLayout>
+
+         <View android:layout_height="10dp"
+             android:layout_width="match_parent"/>
+         
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="90dp"
+             android:background="@android:color/white" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="18dp"
+                 android:src="@drawable/perfume1" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@+id/imageView1"
+                 android:layout_marginLeft="18dp"
+                 android:layout_toRightOf="@+id/imageView1"
+                 android:text="Versace Bright Crystal Women 90Ml"
+                 android:textSize="16sp"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView2"
+                 android:layout_centerVertical="true"
+                 android:text="Precious jewel for rare beauty"
+                 android:textSize="12sp" />
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/imageView1"
+                 android:layout_alignLeft="@+id/textView3"
+                 android:text="US$ 60"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/textView4"
+                 android:layout_alignBottom="@+id/textView4"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="11dp"
+                 android:text=" 5% off"
+                 android:textColor="@color/black" />
+         </RelativeLayout>
+
+         <View android:layout_height="10dp"
+             android:layout_width="match_parent"/>
+         
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="126dp"
+             android:background="@android:color/white" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true"
+                 android:src="@drawable/circle" />
+
+         </RelativeLayout>
+        
+         <View android:layout_height="10dp"
+             android:layout_width="match_parent"/>
+         
+          <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="89dp"
+             android:background="@android:color/white" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="18dp"
+                 android:src="@drawable/perfume2" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@+id/imageView1"
+                 android:layout_marginLeft="18dp"
+                 android:layout_toRightOf="@+id/imageView1"
+                 android:text="Versace Bright Crystal 50Ml"
+                 android:textSize="16sp"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView2"
+                 android:layout_centerVertical="true"
+                 android:text="Precious jewel for rare beauty"
+                 android:textSize="12sp" />
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/imageView1"
+                 android:layout_alignLeft="@+id/textView3"
+                 android:text="US$ 50"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/textView4"
+                 android:layout_alignBottom="@+id/textView4"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="11dp"
+                 android:text=" 5% off"
+                 android:textColor="@color/black" />
+         </RelativeLayout>
+         
+          <View android:layout_height="10dp"
+             android:layout_width="match_parent"/>
+          
+           <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="89dp"
+             android:background="@android:color/white" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="18dp"
+                 android:src="@drawable/perfume3" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@+id/imageView1"
+                 android:layout_marginLeft="18dp"
+                 android:layout_toRightOf="@+id/imageView1"
+                 android:text="Versace Crystal Women 100Ml"
+                 android:textSize="16sp"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView2"
+                 android:layout_centerVertical="true"
+                 android:text="Precious jewel for rare beauty"
+                 android:textSize="12sp" />
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/imageView1"
+                 android:layout_alignLeft="@+id/textView3"
+                 android:text="US$ 70"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/textView4"
+                 android:layout_alignBottom="@+id/textView4"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="11dp"
+                 android:text=" 5% off"
+                 android:textColor="@color/black" />
+         </RelativeLayout>
+         
+           <View android:layout_height="10dp"
+             android:layout_width="match_parent"/>
+           
+           <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="89dp"
+             android:background="@android:color/white" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="18dp"
+                 android:src="@drawable/perfume4" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@+id/imageView1"
+                 android:layout_marginLeft="18dp"
+                 android:layout_toRightOf="@+id/imageView1"
+                 android:text="Bright Crystal Women 60Ml"
+                 android:textSize="16sp"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView2"
+                 android:layout_centerVertical="true"
+                 android:text="Precious jewel for rare beauty"
+                 android:textSize="12sp" />
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/imageView1"
+                 android:layout_alignLeft="@+id/textView3"
+                 android:text="US$ 80"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/textView4"
+                 android:layout_alignBottom="@+id/textView4"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="11dp"
+                 android:text=" 5% off"
+                 android:textColor="@color/black" />
+         </RelativeLayout>
+           
+           <View android:layout_height="10dp"
+             android:layout_width="match_parent"/>
+           
+           <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="89dp"
+             android:background="@android:color/white" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="18dp"
+                 android:src="@drawable/perfume5" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@+id/imageView1"
+                 android:layout_marginLeft="18dp"
+                 android:layout_toRightOf="@+id/imageView1"
+                 android:text="Versace Bright Women 70Ml"
+                 android:textSize="16sp"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView2"
+                 android:layout_centerVertical="true"
+                 android:text="Precious jewel for rare beauty"
+                 android:textSize="12sp" />
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/imageView1"
+                 android:layout_alignLeft="@+id/textView3"
+                 android:text="US$ 70"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/textView4"
+                 android:layout_alignBottom="@+id/textView4"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="11dp"
+                 android:text=" 5% off"
+                 android:textColor="@color/black" />
+         </RelativeLayout>
+         
+           <View android:layout_height="10dp"
+             android:layout_width="match_parent"/>
+           
+           <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="89dp"
+             android:background="@android:color/white" >
+			
+      	
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="18dp"
+                 android:src="@drawable/perfume6" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@+id/imageView1"
+                 android:layout_marginLeft="18dp"
+                 android:layout_toRightOf="@+id/imageView1"
+                 android:text="VersaceB Crystal Women 40Ml"
+                 android:textSize="16sp"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView2"
+                 android:layout_centerVertical="true"
+                 android:text="Precious jewel for rare beauty"
+                 android:textSize="12sp" />
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/imageView1"
+                 android:layout_alignLeft="@+id/textView3"
+                 android:text="US$ 40"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBaseline="@+id/textView4"
+                 android:layout_alignBottom="@+id/textView4"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="11dp"
+                 android:text=" 5% off"
+                 android:textColor="@color/black" />
+         </RelativeLayout>
+         
+           
+    </LinearLayout>
+    
+</ScrollView>

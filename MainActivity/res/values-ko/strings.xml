@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TV야 궁금해</string>
+    <string name="title_section1">제 1 절</string>
+    <string name="title_section2">제 2 절</string>
+    <string name="title_section3">제 3 절</string>
+    <string name="action_settings">설정</string>
+    <string name="jointopbutton">회원가입</string>
+    <string name="aboutyourselfback">이미지/사진 첨부</string>
+    <string name="aboutyourselfbirthday">생년월일 </string>
+    <string name="aboutyourselfyear">년 </string>
+    <string name="aboutyourselfmonth">월 </string>
+    <string name="aboutyourselfday">일</string>
+    <string name="aboutyourselffemalesex">여자</string>
+    <string name="aboutyourselfmalesex">남성</string>
+    <string name="aboutyourselnext">다음</string>
+    <string name="aboutyourselheading">맞춤 서비스 제공을 위한 추가정보 입력 :)</string>
+    <string name="activitymainheading">TrendOnAir</string>
+    <string name="activitymainjoin">회원가입</string>
+    <string name="activitymainsignin">로그인</string>
+    <string name="activitymainsigninwithkakao">카카오 표지판</string>
+    <string name="joinemailaddress">이메일-주소</string>
+    <string name="joinpassword">암호</string>
+    <string name="joinnickname">별명</string>
+    <string name="joinreaddytojoinbutton">회원가입하기</string>
+    <string name="joincreateyouraccount">귀하의 계정 만들기</string>
+    <string name="profiletrendonair">TrendOnAir</string>
+    <string name="profilemyprofile">내 프로필</string>
+    <string name="profilenickname">닉네임</string>
+    <string name="profilenicknamebar">닉네임 </string>
+    <string name="profilelogout">로그아웃</string>
+    <string name="profileemailbar">이메일  </string>
+    <string name="profilechangepassword">비밀번호 변경</string>
+    <string name="profileemail">이메일</string>
+    <string name="loginssignin">로그인</string>
+    <string name="loginslogin">로그인</string>
+    <string name="changepasswordold">이전 암호</string>
+    <string name="changepasswordnew">새 암호</string>
+    <string name="changepasswordnewconfirm">비밀번호 확인</string>
+    <string name="changepassword">비밀번호 변경</string>
+    <string name="changepasswordbtn">비밀번호 변경</string>
+
+    <string-array name="menuitems">
+        <item>프로필</item>
+        <item>알림</item>
+        <item>홈</item>
+        <item>인기 상품</item>
+        <item>나의 최근 활동</item>
+    </string-array>
+    <string-array name="hot_arrays">
+        <item>모든</item>
+        <item>쇼핑</item>
+        <item>위치</item>
+        <item>음악</item>
+    </string-array>
+
+    <string name="drawer_open">열기 탐색 함</string>
+    <string name="drawer_close">닫기 탐색 함</string>
+    <string name="option">옵션을 선택하세요</string>
+    <string name="searchhome">찾아보기</string>
+    <string name="addquestionaddq">새 질문 만들기</string>
+    <string name="addquestionaddqga">갤러리에서 질문 추가</string>
+    <string name="addquestionaddqca">카메라에서 질문 추가</string>
+    <string name="addquestionaddqprgname">TV프로그램 또는 배우이름</string>
+    <string name="addquestionaddqepisodeno">에피소드 번호</string>
+    <string name="addquestionaddcelebrityname">유명 인사의 이름</string>
+    <string name="addquestionaddquestions">질문</string>
+    <string name="customdialogcamera">카메라 </string>
+    <string name="customdialoggallery">앨범 </string>
+    <string name="customdialognopictures">없음</string>
+    <string name="shoppingiteminfo">상품 쇼핑 정보</string>
+    <string name="homeaddquestion">질문을 입력하세요.</string>
+    <string name="homeaddanswer">15자 이내로 답변하세요</string>
+    <string name="customanswer">기본</string>
+    <string name="customshopping">상품</string>
+    <string name="customanswerlocation">장소</string>
+    <string name="customanswermusic">음악</string>
+    <string name="searchuestion">검색 질문</string>
+    <string name="addanswer">답변하기</string>
+    <string name="menuprofle">내 프로필</string>
+    <string name="menunotify">알림목록</string>
+    <string name="menuhome">질문목록</string>
+    <string name="menupop">인기아이템</string>
+    <string name="menulatest">내 질문과 답변</string>
+    <string name="homesearch">검색</string>
+    <string name="homeadd">추가</string>
+    <string name="homeall">전체 보기</string>
+    <string name="all">모두</string>
+    <string name="homepopular">인기순</string>
+    <string name="notify">알림로드....</string>
+    <string name="notifytop">알림</string>
+    <string name="complete">완료</string>
+    <string name="attachimages">이미지 첨부</string>
+    <string name="ansdia">답변 종류 선택하기</string>
+    <string name="homerecent">최신순</string>
+    <string name="sorry">임시적인 오류로 작업이 완료되지 않았습니다. 잠시 후 다시 시도해 주세요.</string>
+    <string name="quesback">배경에 저장 질문</string>
+    <string name="imagenotproper">이미지 제대로 업로드되지</string>
+    <string name="ansback">배경에 저장된 응답</string>
+    <string name="pushsorry">푸시 알림이 전달되지 않았습니다.</string>
+    <string name="pushmess">질문에 대한 답변이 추가되었습니다.</string>
+    <string name="passsuc">비밀번호가 변경되었습니다.</string>
+    <string name="passfail">비밀번호가 일치하지 않습니다.</string>
+    <string name="pressback">다시 눌러 종료</string>
+    <string name="succeslogin">에 로그인 한 사용자</string>
+    <string name="apkexpired">이 APK는 만료</string>
+    <string name="succreg">성공적인</string>
+    <string name="myques">내 질문</string>
+    <string name="hotitem">핫 아이템</string>
+    <string name="staggeredall">모두보기</string>
+    <string name="text_type">텍스트 형식을 사용하시겠습니까?</string>
+
+    <string-array name="text_types">
+        <item>@string/use_text</item>
+        <item>@string/no_text</item>
+    </string-array>
+
+    <string name="link_type">링크 형식을 사용하시겠습니까?</string>
+
+    <string-array name="link_types">
+        <item>@string/use_weblink</item>
+        <item>@string/use_applink</item>
+        <item>@string/no_link</item>
+    </string-array>
+
+    <string name="image_type">이미지 형식을 사용하시겠습니까?</string>
+
+    <string-array name="image_types">
+        <item>@string/use_image</item>
+        <item>@string/no_image</item>
+    </string-array>
+
+    <string name="button_type">버튼 형식을 사용하시겠습니까?</string>
+
+    <string-array name="button_types">
+        <item>@string/use_appbutton</item>
+        <item>@string/use_webbutton</item>
+        <item>@string/no_button</item>
+    </string-array>
+
+    <string name="send_button">보내기</string>
+    <string name="clear_button">지우기</string>
+    <string name="reset_message">메시지 구성을 다시 하시겠습니까?</string>
+    <string name="use_text">텍스트 사용</string>
+    <string name="no_text">텍스트 사용안함</string>
+    <string name="use_applink">앱링크 사용</string>
+    <string name="use_weblink">웹링크 사용</string>
+    <string name="no_link">링크 사용안함</string>
+    <string name="use_image">이미지 사용</string>
+    <string name="no_image">이미지 사용안함</string>
+    <string name="use_appbutton">앱버튼 사용</string>
+    <string name="use_webbutton">웹버튼 사용</string>
+    <string name="no_button">버튼 사용안함</string>
+    <string name="kakaolink_text">카카오링크 샘플앱에 오신 것을 환영합니다.</string>
+    <string name="kakaolink_applink">앱으로 이동</string>
+    <string name="kakaolink_weblink">카카오톡 홈페이지로 이동</string>
+    <string name="kakaolink_appbutton">앱으로 이동</string>
+    <string name="kakaolink_webbutton">카카오 홈페이지로 이동</string>
+    <string name="send_message">아래 메시지를 보내시겠습니까?</string>
+    <string name="uploadingquestiondialog"> 질문을 업로드 할 잠시만 기다려주십시오</string>
+    <string name="questionaddedsucc">질문이 성공적으로 추가</string>
+    <string name="progerror">프로그램 이름을 선택해 주세요.</string>
+    <string name="queserror">질문을 입력해 주세요.</string>
+    <string name="wait">잠시만 기다려주십시오 ........</string>
+    <string name="anserr">답변을 입력해 주세요.</string>
+    <string name="anssucc">답변을 등록 중입니다. 잠시만 기다려 주세요.답변을 등록 중입니다. 잠시만 기다려 주세요.</string>
+    <string name="notificationload">알림로드</string>
+    <string name="loadinghotitems">뜨거운 품목로드</string>
+    <string name="dob">출생의 날짜가 잘못되었습니다</string>
+    <string name="uidp">입력하신 이메일은 이미 가입이 되었습니다. 다른 이메일로 가입하세요. </string>
+    <string name="iup">이메일 또는 비밀번호가 잘못되었습니다.</string>
+    <string name="sq">업로드 답변 됨</string>
+    <string name="succ">업로드 답변 됨</string>
+
+    <string-array name="myques_arrays">
+        <item>전체보기</item>
+        <item>내 질문</item>
+        <item>내 답변</item>
+        <item>나도 궁금!</item>
+        <item>좋아한 질문</item>
+        <item>좋아한 답변</item>
+        <item>공유한 질문</item>
+    </string-array>
+     <string-array name="filter_arrays">
+        <item>전체보기</item>
+        <item>상품질문</item>
+        <item>미답변</item>
+    </string-array>
+    <string-array name="sort_arrays">
+        <item>인기순</item>
+        <item>최신순</item>
+    </string-array>
+    <string-array name="hot_arrays">
+        <item>전체보기</item>
+        <item>상품정보</item>
+        <item>장소정보</item>
+        <item>음악정보</item>
+    </string-array>
+
+    <string name="addquestiontextview">질문 추가</string>
+    <string name="musicsearch">음악 검색</string>
+    <string name="musictitle">곡명</string>
+    <string name="musicartist">가수</string>
+    <string name="search">검색</string>
+    <string name="musicnote">정확한 답변으로 더 많은 포인트를 획득하세요</string>
+    <string name="shoppingback">쇼핑 아이템</string>
+    <string name="shoppingBrand">브랜드</string>
+    <string name="shopping">쇼핑</string>
+    <string name="shoppingProduct">품명</string>
+    <string name="shoppingKeyword">키워드</string>
+    <string name="shoppingSearchItem">온라인 상품 검색</string>
+    <string name="shoppingnote">온라인 상품을 정확하게 찾아주고, 리워드를 쌓으세요.</string>
+    <string name="answerlocationtitle">장소</string>
+    <string name="locationplace">장소의 이름이나 주소</string>
+    <string name="locationnote">입력된 정보로 검색되는 장소가 없습니다. 검색 결과 없이 계속 진행하시겠습니까?</string>
+    <string name="location">장소</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="custshoppingnote">상품 검색을 통해 상품 선택하여 답변시 더 많은 포인트 적립이 가능합니다. 상품을 검색하여 선택하지 않고 계속 진행하시겠습니까?</string>
+    <string name="splash_mainjoin">회원가입</string>
+    <string name="splash_mainsignin">로그인</string>
+    <string name="mainsearchepname">방송날짜</string>
+    <string name="mainsearchcelebrity">출연배우</string>
+    <string name="progressregisteringuser">사용자를 등록중입니다.</string>
+    <string name="imeagechooser">사진 선택</string>
+    <string name="nicksucc">닉네임은 성공적으로 변경!</string>
+    <string name="nickhint"></string>
+    <string name="nickchange">변경</string>
+    <string name="jan">일월</string>
+    <string name="feb">이월</string>
+    <string name="mar">삼월</string>
+    <string name="apr">사월</string>
+    <string name="may">오월</string>
+    <string name="jun">육월</string>
+    <string name="jul">칠월</string>
+    <string name="aug">팔월</string>
+    <string name="sep">구월</string>
+    <string name="oct">십월</string>
+    <string name="nov">십일월</string>
+    <string name="dec">십이월</string>
+    <string name="days_ago"> &#160;일 전</string>
+    <string name="hour_ago"> &#160;시간 전</string>
+    <string name="minutes_ago"> &#160;분 전</string>
+    <string name="day_ago"> &#160;주 전</string>
+    <string name="any">모든</string>
+    <string name="remaining">2일 이전</string>
+    <string name="yesterday">어제</string>
+    <string name="Today">오늘</string>
+    <string name="verifingcredetial">자격 증명을 확인하는</string>
+    <string name="please_wait">잠시 기다려주십시오........</string>
+    <string name="invalid_credential">잘못된 로그인 자격 증명</string>
+    <string name="network_conn_not_present">현재 없음 네트워크 연결</string>
+    <string name="locn_unavailable">현재 위치를 일시적으로 사용할 수 없습니다</string>
+    <string name="curr_loc_unavailable_area">현재 위치는 사용할 수없는 영역입니다</string>
+    <string name="no_reg_user">등록 된 사용자는 푸시를 전송하지 않으려면</string>
+    <string name="Internet_not_present">현재 없음 인터넷</string>
+    <string name="already_shared_by_u">이미 공유</string>
+    <string name="registering_user">등록 사용자</string>
+    <string name="changenick">닉네임 변경</string>
+    <string name="nickfail">빈 닉네임 </string>
+    <string name="changepwdok">승인</string>
+    <string name="currentpwd">현재 비밀번호</string>
+    <string name="set_date">날짜 설정</string>
+    <string name="clear">지우기</string>
+    <string name="cancel">취소</string>
+    <string name="set">설정</string>
+<string  name="confirm_delete_image">정말 삭제하시겠습니까?</string>
+      <string name="yes_del_img">예</string>
+    <string name="no_del_img">아니오</string>
+     <string name="today">오늘</string>
+    <string name="yesterday">어제</string>
+    
+      <string name="ok">확인</string>
+   <string name="duplicate_email">이메일이 중복되었습니다.</string>
+   <string name="email_redundancy">이메일 중복 오류</string>
+   <string name="email_pwd_err">이메일/암호 오류</string>
+   <string name="wrong_email">잘못된 이메일이나 비밀번호를 입력합니다.\n다시 시도하십시오.</string>
+   <string name="new_question">+새질문</string>
+    <string name="want_to_del">정말 삭제하시겠습니까?</string>
+    <string name="to_question">질문 바로가기</string>
+     <string name="unablecam">사진 카메라 촬영을 할 수 없습니다</string>
+      <string name="programthanceleb">출연 배우</string>
+        <string name="celebthanceleb">출연 프로그램</string>
+        <string name="searchquestionsearchbox">검색어를 입력하세요</string>
+        <string name="my_ques">내 질문</string>
+    <string name="my_ans">내 대답</string>
+    <string name="mee_too_ques">나도궁금 질문</string>
+    <string name="liked_ques">좋아 질문</string>
+    <string name="liked_ans">좋아 답변</string>
+    <string name="shared_ques">공유 질문</string>
+ <string name="item_search_result">판매자:</string>
+</resources>

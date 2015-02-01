@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:background="#D2CCD0"
+    android:orientation="vertical" 
+     android:layout_marginRight="16dp"
+      android:layout_marginLeft="16dp"
+    >
+
+    <Button 
+        				android:layout_width="2dp"
+                        android:layout_height="1dp"
+                        android:id="@+id/btnmainsearchsbtn" 
+                        
+        />
+
+<RelativeLayout
+    android:id="@+id/relativeLayoutsearchmain"
+    android:layout_width="fill_parent"
+    android:layout_height="260dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:visibility="visible" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Place Name"
+        android:inputType="textVisiblePassword" />
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="103dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="From" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="103dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="To" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="36dp"
+        android:text="Search" 
+        android:id="@+id/search"
+        />
+</RelativeLayout>
+
+   <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/viewbackground2"
+                        android:id="@+id/headerbottom"
+                       
+                         >
+
+                       
+                    </RelativeLayout>
+
+</LinearLayout>

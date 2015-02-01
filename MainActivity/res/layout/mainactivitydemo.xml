@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    
+    tools:context=".QuestionDetailsActivity" >
+
+    <RelativeLayout
+        android:background="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/settings"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal" 
+            android:background="@android:color/white"
+            >
+
+           <ImageView 
+               
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:background="@drawable/ic_action_settings"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="4dp"              
+                />
+		
+           	<TextView 
+           	    android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:text="Stayzilla Near you"  
+               android:gravity="center"
+               android:textColor="@android:color/black"
+               android:textSize="15sp"
+                      	    />
+           	
+           	
+         
+        </LinearLayout>
+<View 
+     android:layout_width="243dp"
+               android:layout_height="2dp"
+               android:background="#AE0042"
+               android:layout_below="@id/settings"
+               android:id="@+id/setiingsview"
+    />
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/settings0"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal" 
+            android:background="@android:color/white"
+            android:layout_below="@+id/setiingsview"
+            >
+
+           <ImageView 
+               
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:background="@drawable/logout"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="4dp"              
+                />
+		
+           	<TextView 
+           	    android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:text="Logout"  
+               android:gravity="center"
+               android:textColor="@android:color/black"
+               android:textSize="15sp"
+                      	    />
+           	
+           	
+         
+        </LinearLayout>
+<View 
+     android:layout_width="243dp"
+               android:layout_height="2dp"
+               android:background="#AE0042"
+               android:layout_below="@id/settings0"
+               android:id="@+id/setiingsview0"
+    />
+
+      <LinearLayout
+            android:id="@+id/settings1"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal" 
+            android:background="@android:color/white"
+            android:layout_below="@+id/setiingsview0"
+            >
+
+           <ImageView 
+               
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:background="@drawable/aboutapp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="4dp"              
+                />
+		
+           	<TextView 
+           	    android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:text="About App"  
+               android:gravity="center"
+               android:textColor="@android:color/black"
+               android:textSize="15sp"
+                      	    />
+           	
+           	
+         
+        </LinearLayout>
+<View 
+     android:layout_width="243dp"
+               android:layout_height="2dp"
+               android:background="#AE0042"
+               android:layout_below="@id/settings1"
+               android:id="@+id/setiingsview1"
+    />
+        
+
+       
+    </RelativeLayout>
+
+</ScrollView>

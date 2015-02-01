@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <EditText
+        android:textColor="@android:color/black"
+        android:id="@+id/userName_editText"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/usermale"
+        android:ems="10"
+        android:hint="Username or E-mail"
+        android:drawablePadding="15dp"
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:drawablePadding="15dp"
+        android:id="@+id/password_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/userName_editText"
+        android:layout_alignRight="@+id/userName_editText"
+        android:layout_below="@+id/userName_editText"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/lock1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password_editText"
+        android:layout_alignRight="@+id/password_editText"
+        android:layout_below="@+id/password_editText"
+        android:layout_marginTop="35dp"
+        android:text="Login"
+        android:background="#990033" />
+
+    <Button
+        android:id="@+id/register1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_below="@+id/login_button"
+        android:layout_marginTop="17dp"
+        android:text="Register"
+        android:textColor="#990033"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/forgotPswd_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/register1_button"
+        android:layout_alignBottom="@+id/register1_button"
+        android:layout_alignRight="@+id/login_button"
+        android:text="Forgot Password?"
+        android:textAllCaps="false"
+        android:textColor="#990033"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/merulogin" />
+
+</RelativeLayout>
